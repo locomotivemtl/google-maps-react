@@ -26,7 +26,8 @@ export class Polygon extends React.Component {
 
   componentDidUpdate(prevProps) {
     if (
-      this.props.map !== prevProps.map ||
+      this.props.map !== prevProps.map || 
+      this.props.fillColor !== prevProps.fillColor || 
       !arePathsEqual(this.props.paths, prevProps.paths)
     ) {
       if (this.polygon) {

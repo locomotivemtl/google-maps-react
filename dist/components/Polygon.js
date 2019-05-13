@@ -135,7 +135,7 @@
     }, {
       key: 'componentDidUpdate',
       value: function componentDidUpdate(prevProps) {
-        if (this.props.map !== prevProps.map || !(0, _arePathsEqual.arePathsEqual)(this.props.paths, prevProps.paths)) {
+        if (this.props.map !== prevProps.map || this.props.fillColor !== prevProps.fillColor || !(0, _arePathsEqual.arePathsEqual)(this.props.paths, prevProps.paths)) {
           if (this.polygon) {
             this.polygon.setMap(null);
           }
