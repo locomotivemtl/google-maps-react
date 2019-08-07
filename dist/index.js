@@ -267,7 +267,6 @@
               noClear: this.props.noClear,
               styles: this.props.styles,
               gestureHandling: this.props.gestureHandling,
-              draggableCursor: this.props.draggableCursor,
               draggingCursor: this.props.draggingCursor
             });
   
@@ -415,7 +414,6 @@
       styles: _propTypes2.default.array,
       gestureHandling: _propTypes2.default.string,
       bounds: _propTypes2.default.object,
-      draggableCursor: _propTypes2.default.string,
       draggingCursor: _propTypes2.default.string
     };
   
